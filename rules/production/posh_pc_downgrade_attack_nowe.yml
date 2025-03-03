@@ -6,9 +6,6 @@ references:
     - https://www.zscaler.com/blogs/security-research/steal-it-campaign
 author: X__Junior (Nextron Systems)
 date: 2023-09-13
-tags:
-    - attack.execution
-    - attack.t1204
 logsource:
     product: windows
     category: process_creation
@@ -30,4 +27,7 @@ detection:
 falsepositives:
     - Unknown
 level: high
+tags:
+    - attack.defense-evasion
+    - attack.t1562.001
 
