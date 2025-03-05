@@ -1,5 +1,5 @@
 title: Encrypted CommandLine In Powershell
-id: ca2092a1-c273-4878-9b4b-0d60115bf5ea
+id: 92cdec4f-9d3e-4ac0-94ec-32c05adbe7f7
 status: test
 description: Detects suspicious use of XORDump process memory dumping utility
 references:
@@ -8,8 +8,6 @@ author: Tomasz Dyduch
 date: 2022-01-28
 modified: 2023-02-08
 tags:
-    - attack.defense_evasion
-    - attack.t1027
     - attack.execution
     - attack.t1059.001
 logsource:
