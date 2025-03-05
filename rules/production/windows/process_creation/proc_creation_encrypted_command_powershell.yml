@@ -17,12 +17,9 @@ logsource:
     product: windows
 detection:
     selection_img:
-        - Image|endswith:
+        Image|endswith:
             - '\powershell.exe'
             - '\pwsh.exe'
-        - OriginalFileName:
-            - 'PowerShell.exe'
-            - 'pwsh.dll'
     selection_cli:
         CommandLine|contains: '-EncodedCommand'
     condition: all of selection_*
