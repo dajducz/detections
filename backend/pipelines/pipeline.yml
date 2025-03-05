@@ -17,7 +17,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 1
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -28,7 +28,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 2
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -39,7 +39,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 3
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -50,7 +50,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 4
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -61,7 +61,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 5
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -72,7 +72,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 6
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -83,7 +83,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 7
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -94,7 +94,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 8
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -105,7 +105,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 9
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -116,7 +116,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 10
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -127,7 +127,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 11
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -138,7 +138,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 12
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -149,7 +149,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 12
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -163,7 +163,7 @@ transformations:
         - 12
         - 13
         - 14
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -175,7 +175,7 @@ transformations:
     conditions:
       EventCode:
         - 14
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -187,7 +187,7 @@ transformations:
     conditions:
       EventCode:
         - 14
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -198,7 +198,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 15
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -209,7 +209,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 16
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -220,7 +220,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 17
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -231,7 +231,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 18
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -245,7 +245,7 @@ transformations:
         - 19
         - 20
         - 21
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -256,7 +256,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 22
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -267,7 +267,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 23
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -278,7 +278,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 24
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -289,7 +289,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 25
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
@@ -300,7 +300,7 @@ transformations:
     type: add_condition
     conditions:
       EventCode: 26
-      extracted_sourcetype: 'WinEventLog'
+      
     rule_conditions:
       - type: logsource
         product: windows
