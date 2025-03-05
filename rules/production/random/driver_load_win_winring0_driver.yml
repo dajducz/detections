@@ -1,4 +1,4 @@
-title: Vulnerable WinRing0 Driver Load
+title: Vulnerable WinRing0 Driver Load New 2
 id: 1a42dfa6-6cb2-4df9-9b48-295be477e835
 status: test
 description: Detects the load of a signed WinRing0 driver often used by threat actors, crypto miners (XMRIG) or malware for privilege escalation
